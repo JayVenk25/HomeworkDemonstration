@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: 6afedd750ef47e7469087261ae9cf80d
+  - enabled: 1
+    path: Assets/Scenes/adrians level.unity
+    guid: 180413c1dedde334b8ced356a58f29c7
   m_configObjects: {}
