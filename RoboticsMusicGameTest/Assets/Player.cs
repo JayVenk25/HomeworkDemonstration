@@ -36,7 +36,7 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && onGround == true)
         {
             rb.AddForce(new Vector2(rb.velocity.x, jumpForce));
-            onGround = false;
+            onGround = true;
             jumpSound.Play();
         }
 

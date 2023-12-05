@@ -607,7 +607,7 @@ MonoBehaviour:
   jumpSound: {fileID: 1802559298}
   landSound: {fileID: 537955449}
   coinSound: {fileID: 537955449}
-  coin: {fileID: 0}
+  coin: {fileID: 5445048967904138575}
 --- !u!212 &722132912
 SpriteRenderer:
   m_ObjectHideFlags: 0
