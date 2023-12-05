@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class Player : MonoBehaviour
     public AudioSource landSound;
     public AudioSource coinSound;
     public GameObject coin;
+    public menu gameOver;
 
     // Start is called before the first frame update
     void Start()
@@ -58,6 +60,10 @@ public class Player : MonoBehaviour
         {
             coinSound.Play();
             coin.SetActive(false);
+        }
+        if (other.gameObject.tag == "Obstacle")
+        { 
+            gameOver.enabled = true;
         }
     }
 }
